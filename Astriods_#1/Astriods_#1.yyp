@@ -5,7 +5,6 @@
     {"id":{"name":"Spr_mediumasteriod","path":"sprites/Spr_mediumasteriod/Spr_mediumasteriod.yy",},"order":4,},
     {"id":{"name":"Spr_bigastripod","path":"sprites/Spr_bigastripod/Spr_bigastripod.yy",},"order":3,},
     {"id":{"name":"Obj_asteroid","path":"objects/Obj_asteroid/Obj_asteroid.yy",},"order":1,},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"order":0,},
     {"id":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},"order":0,},
   ],
@@ -25,7 +24,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
