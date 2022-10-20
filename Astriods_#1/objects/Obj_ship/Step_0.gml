@@ -12,4 +12,4 @@ if (keyboard_check(vk_space)){
 if (keyboard_check(vk_down)){
 	motion_set(image_angle,0);
 }
-move_wrap(true,true,0);
+move_wrap(true,true,sprite_width/2);
