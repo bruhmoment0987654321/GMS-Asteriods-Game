@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_ship",
-    "path": "sprites/Spr_ship/Spr_ship.yy",
+    "name": "Spr_bullet",
+    "path": "sprites/Spr_bullet/Spr_bullet.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_asteroid","path":"objects/Obj_asteroid/Obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_ship",
+  "name": "Obj_bullet",
   "tags": [],
   "resourceType": "GMObject",
 }
