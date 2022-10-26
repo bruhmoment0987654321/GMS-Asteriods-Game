@@ -13,5 +13,5 @@ with(other){
 			coolastroid.sprite_index = Spr_smlasriod;
 		}
 	}
-	
+	instance_create_layer(x,y,"Instances",Obj_explosion);
 }

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_ship",
+  "name": "Obj_explosion",
   "spriteId": {
-    "name": "Spr_ship",
-    "path": "sprites/Spr_ship/Spr_ship.yy",
+    "name": "Spr_explosion",
+    "path": "sprites/Spr_explosion/Spr_explosion.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_asteroid","path":"objects/Obj_asteroid/Obj_asteroid.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
