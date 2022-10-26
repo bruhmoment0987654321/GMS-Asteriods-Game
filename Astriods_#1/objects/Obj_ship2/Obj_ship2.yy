@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_asteroid",
+  "name": "Obj_ship2",
   "spriteId": {
-    "name": "Spr_mediumasteriod",
-    "path": "sprites/Spr_mediumasteriod/Spr_mediumasteriod.yy",
+    "name": "Spr_ship2",
+    "path": "sprites/Spr_ship2/Spr_ship2.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +25,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
