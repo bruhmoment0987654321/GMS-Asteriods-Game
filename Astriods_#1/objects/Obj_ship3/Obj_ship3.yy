@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_ship2",
+  "name": "Obj_ship3",
   "spriteId": {
-    "name": "Spr_ship2",
-    "path": "sprites/Spr_ship2/Spr_ship2.yy",
+    "name": "Spr_ship3",
+    "path": "sprites/Spr_ship3/Spr_ship3.yy",
   },
   "solid": false,
   "visible": true,
