@@ -25,6 +25,7 @@
     {"id":{"name":"Obj_asteroid","path":"objects/Obj_asteroid/Obj_asteroid.yy",},"order":1,},
     {"id":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"order":0,},
     {"id":{"name":"Obj_explosion","path":"objects/Obj_explosion/Obj_explosion.yy",},"order":3,},
+    {"id":{"name":"Obj_game","path":"objects/Obj_game/Obj_game.yy",},"order":10,},
     {"id":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},"order":0,},
   ],
   "Options": [
