@@ -1,17 +1,17 @@
-if (keyboard_check(vk_numpad4)){
+if (keyboard_check(ord("F"))){
 	image_angle += 5;
 }
-if (keyboard_check(vk_numpad6)){
+if (keyboard_check(ord("H"))){
 	image_angle -= 5;
 }
-if (keyboard_check(vk_numpad5)){
+if (keyboard_check(ord("Y"))){
 	motion_add(image_angle,0.1);
 }
-if (keyboard_check(vk_numpad2)){
+if (keyboard_check(ord("G"))){
 	motion_set(image_angle,0);
 }
-if (keyboard_check_pressed(vk_numpad8)){
-	var inst = instance_create_layer(x,y,"Instances",Obj_bullet);
+if (keyboard_check_pressed(ord("T"))){
+	var inst = instance_create_layer(x,y,"Instances",Obj_bullet4);
 	inst.direction = image_angle;
 }
 move_wrap(true,true,sprite_width/2);
