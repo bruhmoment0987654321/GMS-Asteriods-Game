@@ -28,3 +28,11 @@ if (keyboard_check_pressed(vk_tab)){
 		
 	}
 }
+if (room == Rm_game){
+	if (lives <=0){
+	room_goto(Rm_gameover);	
+	}
+	if (score >= 50000){
+		room_goto(Rm_win);
+	}
+}

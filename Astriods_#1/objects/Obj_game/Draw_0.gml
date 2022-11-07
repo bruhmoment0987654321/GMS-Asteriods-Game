@@ -32,11 +32,11 @@ switch(room){
 			room_width/2,100, "4TH PERSON SHOOTER",
 			4,4,0,c,d,e,f,1
 		);
-		draw_text(room_width/2,200,
+		draw_text(room_width/2,300,
 			@"Play and have fun with 4 playerrrrsss :)
->>PRESS TAB FOR CONTROLS OF ALL PLAYERS<<
+Get 50,000 points to win :o
+>>PRESS TAB FOR CONTROLS OF ALL PLAYERS AND HOW TO PLAY<<
 >>>PRESS ENTER TO START<<<"
-	
 		);
 		draw_set_halign(fa_left);
 	break;
@@ -52,10 +52,11 @@ switch(room){
 YOU WON!!",
 			4,4,0,d,d,d,d,1
 		);
-		draw_text(room_width/2,300,
+		draw_text(room_width/2,400,
+			"FINAL SCORE: "+string(score));
+		draw_text(room_width/2,500,
 			@"Since you're soooo good, you should play again. How does that sound?
->>>PRESS ENTER TO RESTART<<<
-			"
+>>>PRESS ENTER TO RESTART<<<"
 		);
 		draw_set_halign(fa_left);
 	break;
@@ -63,7 +64,11 @@ YOU WON!!",
 	case Rm_gamecontrols:
 		draw_set_halign(fa_center);
 		draw_text(room_width/2,50,
-			@"Ok. here are the controls
+			@"Objective:Everyone works 'together'
+			What I mean by that is everyone gets to share the same amount of points. 
+			Do you think you and your friends can play this game?
+			Oh yeah, also, you can shoot your friends
+			Ok. here are the controls
 			Also I added a new control called stop to stop the ship
 			PLAYER 1:
 			Left: Left Arrow Key
