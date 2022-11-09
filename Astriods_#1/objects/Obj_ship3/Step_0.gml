@@ -13,6 +13,7 @@ if (keyboard_check(ord("G"))){
 if (keyboard_check_pressed(ord("T"))){
 	var inst = instance_create_layer(x,y,"Instances",Obj_bullet4);
 	inst.direction = image_angle;
+	audio_play_sound(Sg_destroy,1,false);
 }
 move_wrap(true,true,sprite_width/2);
 

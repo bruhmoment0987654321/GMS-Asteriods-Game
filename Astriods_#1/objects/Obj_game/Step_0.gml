@@ -30,9 +30,11 @@ if (keyboard_check_pressed(vk_tab)){
 }
 if (room == Rm_game){
 	if (lives <=0){
-	room_goto(Rm_gameover);	
+		room_goto(Rm_gameover);
+		alarm[1] = 3*60;
 	}
-	if (score >= 50000){
+	if (score >= 30000){
 		room_goto(Rm_win);
+		audio_play_sound(Sg_Homerwahoo,1,false);
 	}
 }

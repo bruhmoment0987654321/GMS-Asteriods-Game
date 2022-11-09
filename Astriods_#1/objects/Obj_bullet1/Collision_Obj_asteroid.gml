@@ -1,5 +1,6 @@
 instance_destroy();
 score += 300;
+audio_play_sound(Sg_fun,1,false);
 with(other){
 	instance_destroy();
 	if(sprite_index == Spr_bigastripod){

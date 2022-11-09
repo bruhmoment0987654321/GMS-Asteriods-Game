@@ -34,7 +34,7 @@ switch(room){
 		);
 		draw_text(room_width/2,300,
 			@"Play and have fun with 4 playerrrrsss :)
-Get 50,000 points to win :o
+Get 30,000 points to win :o
 >>PRESS TAB FOR CONTROLS OF ALL PLAYERS AND HOW TO PLAY<<
 >>>PRESS ENTER TO START<<<"
 		);
