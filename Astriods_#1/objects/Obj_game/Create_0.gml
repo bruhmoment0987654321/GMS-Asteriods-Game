@@ -31,9 +31,11 @@ Shoot: T
 Stop: G
 Go Forward: Y"
 
-/*Objective:Everyone works 'together'
+ctrl_txt3 = @"Objective:
+Everyone works 'together'
 Everyone gets to share the same amount of points. 
 Do you think you and your friends can play this game?
-Oh yeah, also, you can shoot your friends
-Ok. here are the controls
-Also I added a new control called stop to stop the ship
+There is also a secret mode called 'Arena Mode.' 
+Arena Mode makes the whole game into a free for all.
+The last person standing wins.
+Good luck finding it though >:)"
