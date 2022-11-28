@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Astriods_#1",
   "resources": [
+    {"id":{"name":"Spr_invinc_pow","path":"sprites/Spr_invinc_pow/Spr_invinc_pow.yy",},"order":15,},
     {"id":{"name":"Spr_bullet1","path":"sprites/Spr_bullet1/Spr_bullet1.yy",},"order":5,},
     {"id":{"name":"Rm_gamecontrols","path":"rooms/Rm_gamecontrols/Rm_gamecontrols.yy",},"order":4,},
     {"id":{"name":"Obj_ship2","path":"objects/Obj_ship2/Obj_ship2.yy",},"order":4,},
@@ -33,11 +34,14 @@
     {"id":{"name":"Sg_monkeysspinningmonkeys","path":"sounds/Sg_monkeysspinningmonkeys/Sg_monkeysspinningmonkeys.yy",},"order":2,},
     {"id":{"name":"Obj_asteroid","path":"objects/Obj_asteroid/Obj_asteroid.yy",},"order":1,},
     {"id":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"order":0,},
+    {"id":{"name":"Spr_wave_pow","path":"sprites/Spr_wave_pow/Spr_wave_pow.yy",},"order":14,},
+    {"id":{"name":"Spr_smile_pow","path":"sprites/Spr_smile_pow/Spr_smile_pow.yy",},"order":13,},
     {"id":{"name":"Rm_gameover","path":"rooms/Rm_gameover/Rm_gameover.yy",},"order":3,},
     {"id":{"name":"Obj_explosion","path":"objects/Obj_explosion/Obj_explosion.yy",},"order":3,},
     {"id":{"name":"Rm_start","path":"rooms/Rm_start/Rm_start.yy",},"order":0,},
     {"id":{"name":"Obj_game","path":"objects/Obj_game/Obj_game.yy",},"order":10,},
     {"id":{"name":"Sg_fun","path":"sounds/Sg_fun/Sg_fun.yy",},"order":5,},
+    {"id":{"name":"Spr_laser_pow","path":"sprites/Spr_laser_pow/Spr_laser_pow.yy",},"order":16,},
     {"id":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},"order":1,},
   ],
   "Options": [

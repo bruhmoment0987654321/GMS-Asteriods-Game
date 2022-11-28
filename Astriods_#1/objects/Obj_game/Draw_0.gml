@@ -62,42 +62,7 @@ YOU WON!!",
 	break;
 	
 	case Rm_gamecontrols:
-		draw_set_halign(fa_center);
-		draw_text(room_width/2,50,
-			@"Objective:Everyone works 'together'
-			What I mean by that is everyone gets to share the same amount of points. 
-			Do you think you and your friends can play this game?
-			Oh yeah, also, you can shoot your friends
-			Ok. here are the controls
-			Also I added a new control called stop to stop the ship
-			PLAYER 1:
-			Left: Left Arrow Key
-			Right: Right Arrow Key
-			Shoot: Up Arrow Key
-			Stop: Down Arrow Key
-			Go Forward: Space
-			
-			PLAYER 2:
-			Left: A
-			Right: D
-			Shoot: W
-			Stop: S
-			Go Forward: E
-			
-			PLAYER 3:
-			Left: F
-			Right: H
-			Shoot: T
-			Stop: G
-			Go Forward: Y
-			
-			PLAYER 4:
-			Left: J
-			Right: L
-			Shoot: I
-			Stop: K
-			Go Forward: O
-			"
-		);
+		draw_text_transformed(room_width/9,300,ctrl_txt2,1.5,1.5,0);
+		draw_text_transformed(room_width/1.5,300,ctrl_txt,1.5,1.5,0);
 	break;
 }
