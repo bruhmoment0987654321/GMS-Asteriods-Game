@@ -11,4 +11,6 @@ if (room == Rm_game){
 	}
 	alarm[0] = 60;
 }
-
+if (room == Rm_objective){
+audio_play_sound(Sg_Funny,1,false);
+}
