@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_scroll",
   "spriteId": {
-    "name": "Sprite17",
-    "path": "sprites/Sprite17/Sprite17.yy",
+    "name": "Spr_scroll",
+    "path": "sprites/Spr_scroll/Spr_scroll.yy",
   },
   "solid": false,
   "visible": true,

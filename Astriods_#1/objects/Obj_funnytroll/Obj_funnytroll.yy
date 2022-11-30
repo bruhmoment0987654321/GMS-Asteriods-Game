@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_funnytroll",
   "spriteId": {
-    "name": "Sprite18",
-    "path": "sprites/Sprite18/Sprite18.yy",
+    "name": "Spr_troll",
+    "path": "sprites/Spr_troll/Spr_troll.yy",
   },
   "solid": false,
   "visible": true,
