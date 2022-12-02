@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_funnytroll",
+  "name": "Obj_powerup",
   "spriteId": {
-    "name": "Spr_troll",
-    "path": "sprites/Spr_troll/Spr_troll.yy",
+    "name": "Spr_pow_line",
+    "path": "sprites/Spr_pow_line/Spr_pow_line.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "game_assets_and_pics",
-    "path": "folders/Objects/game_assets_and_pics.yy",
+    "name": "asteroid_assets",
+    "path": "folders/Objects/asteroid_assets.yy",
   },
 }

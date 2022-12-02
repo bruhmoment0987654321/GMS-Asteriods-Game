@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "asteroid_assets",
+    "path": "folders/Objects/asteroid_assets.yy",
   },
 }
