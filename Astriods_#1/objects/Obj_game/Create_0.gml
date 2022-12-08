@@ -3,7 +3,7 @@ lives = 4;
 draw_set_font(fnt_text);
 
 enum powerups {
-	invincibl,
+	bomba,
 	laza, 
 	shrink,
 	dynomite,

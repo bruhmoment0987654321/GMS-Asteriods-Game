@@ -13,7 +13,7 @@
   "bbox_left": 0,
   "bbox_right": 52,
   "bbox_top": 0,
-  "bbox_bottom": 49,
+  "bbox_bottom": 46,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -76,7 +76,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "ship_assests",
+    "path": "folders/Sprites/ship_assests.yy",
   },
 }
