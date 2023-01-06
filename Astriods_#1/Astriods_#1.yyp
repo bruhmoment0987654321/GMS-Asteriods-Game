@@ -46,7 +46,7 @@
     {"id":{"name":"Rm_objective","path":"rooms/Rm_objective/Rm_objective.yy",},"order":2,},
     {"id":{"name":"Rm_gameover","path":"rooms/Rm_gameover/Rm_gameover.yy",},"order":1,},
     {"id":{"name":"Spr_arena_background","path":"sprites/Spr_arena_background/Spr_arena_background.yy",},"order":0,},
-    {"id":{"name":"Rm_arena","path":"rooms/Rm_arena/Rm_arena.yy",},"order":0,},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"Obj_explosion","path":"objects/Obj_explosion/Obj_explosion.yy",},"order":1,},
     {"id":{"name":"Rm_start","path":"rooms/Rm_start/Rm_start.yy",},"order":2,},
     {"id":{"name":"Obj_game","path":"objects/Obj_game/Obj_game.yy",},"order":1,},
@@ -56,10 +56,10 @@
     {"id":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},"order":0,},
   ],
   "Options": [
-    {"name":"HTML5","path":"options/html5/options_html5.yy",},
     {"name":"Linux","path":"options/linux/options_linux.yy",},
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
   ],
   "defaultScriptType": 1,
@@ -75,7 +75,6 @@
     {"roomId":{"name":"Rm_gameover","path":"rooms/Rm_gameover/Rm_gameover.yy",},},
     {"roomId":{"name":"Rm_gamecontrols","path":"rooms/Rm_gamecontrols/Rm_gamecontrols.yy",},},
     {"roomId":{"name":"Rm_objective","path":"rooms/Rm_objective/Rm_objective.yy",},},
-    {"roomId":{"name":"Rm_arena","path":"rooms/Rm_arena/Rm_arena.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

@@ -65,6 +65,7 @@ YOU WON!!",
 		draw_text_transformed(room_width/9,300,ctrl_txt2,1.5,1.5,0);
 		draw_text_transformed(room_width/1.5,300,ctrl_txt,1.5,1.5,0);
 		draw_text(600,775,"Press 2 for Objective");
+		draw_text(590,750,"Press Enter to go back to Title Screen");
 	break;
 	
 	case Rm_objective:

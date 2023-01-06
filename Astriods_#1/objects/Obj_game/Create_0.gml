@@ -14,36 +14,34 @@ ctrl_txt =
 @"PLAYER 2:
 Left: A
 Right: D
-Shoot: W
+Shoot: E
 Stop: S
-Go Forward: E
+Go Forward: W
 
 PLAYER 4:
 Left: J
 Right: L
-Shoot: I
+Shoot: O
 Stop: K
-Go Forward: O"
+Go Forward: I"
 
 ctrl_txt2 = @"PLAYER 1:
 Left: Left Arrow Key
 Right: Right Arrow Key
-Shoot: Up Arrow Key
+Shoot: Space
 Stop: Down Arrow Key
-Go Forward: Space
+Go Forward: Up Arrow Key
 
 PLAYER 3:
 Left: F
 Right: H
-Shoot: T
+Shoot: Y
 Stop: G
-Go Forward: Y"
+Go Forward: T"
 
 ctrl_txt3 = @"Objective:
 Everyone works 'together'
 Everyone gets to share the same amount of points. 
 Do you think you and your friends can play this game?
-There is also a secret mode called 'Arena Mode.' 
-Arena Mode makes the whole game into a free for all.
-The last person standing wins.
-Good luck finding it though >:)"
+There are some cool secrets in this game that are cool. good luck with them though 
+>:)"
