@@ -36,6 +36,7 @@
     {"id":{"name":"Sg_laza","path":"sounds/Sg_laza/Sg_laza.yy",},"order":10,},
     {"id":{"name":"Spr_bullet3","path":"sprites/Spr_bullet3/Spr_bullet3.yy",},"order":2,},
     {"id":{"name":"Spr_ship3","path":"sprites/Spr_ship3/Spr_ship3.yy",},"order":7,},
+    {"id":{"name":"Spr_background","path":"sprites/Spr_background/Spr_background.yy",},"order":3,},
     {"id":{"name":"Rm_win","path":"rooms/Rm_win/Rm_win.yy",},"order":3,},
     {"id":{"name":"Obj_scroll","path":"objects/Obj_scroll/Obj_scroll.yy",},"order":2,},
     {"id":{"name":"Sg_shoot_sound","path":"sounds/Sg_shoot_sound/Sg_shoot_sound.yy",},"order":4,},
@@ -45,7 +46,6 @@
     {"id":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"order":4,},
     {"id":{"name":"Rm_objective","path":"rooms/Rm_objective/Rm_objective.yy",},"order":2,},
     {"id":{"name":"Rm_gameover","path":"rooms/Rm_gameover/Rm_gameover.yy",},"order":1,},
-    {"id":{"name":"Spr_arena_background","path":"sprites/Spr_arena_background/Spr_arena_background.yy",},"order":0,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"Obj_explosion","path":"objects/Obj_explosion/Obj_explosion.yy",},"order":1,},
     {"id":{"name":"Rm_start","path":"rooms/Rm_start/Rm_start.yy",},"order":2,},
@@ -108,6 +108,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.9.1.51",
   },
 }
