@@ -1,3 +1,4 @@
+/// @description this is the score, lives, power-ups, and text
 score = 0;
 lives = 4;
 draw_set_font(fnt_text);

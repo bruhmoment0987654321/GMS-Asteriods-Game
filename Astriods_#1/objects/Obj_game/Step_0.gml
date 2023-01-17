@@ -7,8 +7,6 @@ if (keyboard_check_pressed(vk_enter)){
 		case Rm_win:
 		case Rm_gameover:
 		case Rm_gamecontrols:
-		case Rm_arena:
-			game_restart();
 		break;
 		
 		case Rm_objective:
@@ -28,7 +26,6 @@ if (keyboard_check_pressed(vk_tab)){
 		case Rm_gameover:
 		case Rm_gamecontrols:
 		case Rm_objective:
-		case Rm_arena:
 		break;
 		
 	}
@@ -44,27 +41,11 @@ if (keyboard_check_pressed(ord(2))){
 		case Rm_gameover:
 		case Rm_start:
 		case Rm_objective:
-		case Rm_arena:
 		break;
 		
 	}
 }
-if (keyboard_check_pressed(ord(0))){
-	switch(room){
-		case Rm_gamecontrols:
-			room_goto(Rm_arena);
-		break;
-		
-		case Rm_game:
-		case Rm_win:
-		case Rm_gameover:
-		case Rm_start:
-		case Rm_objective:
-		case Rm_arena:
-		break;
-		
-	}
-}
+
 if (room == Rm_game){
 	if (lives <=0){
 		room_goto(Rm_gameover);
