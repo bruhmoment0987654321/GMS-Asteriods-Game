@@ -1,3 +1,4 @@
+///@description playing the music for game over
 if (room != Rm_gameover){
 	exit;	
 }

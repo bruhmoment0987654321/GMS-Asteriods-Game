@@ -1,3 +1,5 @@
+///@description choosing where to spawn 
+
 if (room != Rm_game){
 	exit;	
 }

@@ -19,6 +19,13 @@ Shoot: E
 Stop: S
 Go Forward: W
 
+
+
+
+
+
+
+
 PLAYER 4:
 Left: J
 Right: L
@@ -33,6 +40,13 @@ Shoot: Space
 Stop: Down Arrow Key
 Go Forward: Up Arrow Key
 
+
+
+
+
+
+
+
 PLAYER 3:
 Left: F
 Right: H
@@ -44,5 +58,6 @@ ctrl_txt3 = @"Objective:
 Everyone works 'together'
 Everyone gets to share the same amount of points. 
 Do you think you and your friends can play this game?
-There are some cool secrets in this game that are cool. good luck with them though 
+There are some cool secrets in this game that are cool.
+Good luck with them though
 >:)"

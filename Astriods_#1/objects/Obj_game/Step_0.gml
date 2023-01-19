@@ -7,6 +7,7 @@ if (keyboard_check_pressed(vk_enter)){
 		case Rm_win:
 		case Rm_gameover:
 		case Rm_gamecontrols:
+			room_goto(Rm_start);
 		break;
 		
 		case Rm_objective:
