@@ -47,7 +47,7 @@
     {"id":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"order":4,},
     {"id":{"name":"Rm_objective","path":"rooms/Rm_objective/Rm_objective.yy",},"order":2,},
     {"id":{"name":"Rm_gameover","path":"rooms/Rm_gameover/Rm_gameover.yy",},"order":1,},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"Scr_spawn_off_camera","path":"scripts/Scr_spawn_off_camera/Scr_spawn_off_camera.yy",},"order":0,},
     {"id":{"name":"Obj_explosion","path":"objects/Obj_explosion/Obj_explosion.yy",},"order":1,},
     {"id":{"name":"Rm_start","path":"rooms/Rm_start/Rm_start.yy",},"order":2,},
     {"id":{"name":"Obj_game","path":"objects/Obj_game/Obj_game.yy",},"order":1,},
@@ -109,6 +109,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.11.0.54",
   },
 }
