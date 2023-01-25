@@ -12,7 +12,7 @@ global.cameraHeight = 576;
 //the camera activation
 view_enabled = true;
 view_visible[0] = true;
-
+//size of camera in game room
 camera_set_view_size(view_camera[0],global.cameraWidth,global.cameraHeight);
 
 //Display 

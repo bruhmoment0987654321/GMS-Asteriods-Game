@@ -29,7 +29,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "camera_assests",
+    "path": "folders/Objects/camera_assests.yy",
   },
 }
