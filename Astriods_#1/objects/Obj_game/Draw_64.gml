@@ -40,7 +40,8 @@ switch(room){
 			@"Play and have fun with 4 playerrrrsss :)
 Get 30,000 points to win :o
 >>PRESS TAB FOR CONTROLS OF ALL PLAYERS AND HOW TO PLAY<<
->>>PRESS ENTER TO START<<<"
+>>>PRESS ENTER TO START<<<
+>>PRESS 'R' TO RESTART<<"
 		);
 		draw_set_halign(fa_left);
 	break;
