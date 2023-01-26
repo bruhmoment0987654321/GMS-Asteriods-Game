@@ -1,1 +1,1 @@
-speed = 6;
+Obj_ship.bulletSpeed = 6;

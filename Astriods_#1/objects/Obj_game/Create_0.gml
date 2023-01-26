@@ -1,15 +1,8 @@
 /// @description this is the score, lives, power-ups, and text
 score = 0;
-lives = 4;
+lives = 1;
 draw_set_font(fnt_text);
 
-enum powerups {
-	bomba,
-	laza, 
-	shrink,
-	dynomite,
-	microphoney
-}
 
 ctrl_txt = 
 @"PLAYER 2:
@@ -61,3 +54,13 @@ Do you think you and your friends can play this game?
 There are some cool secrets in this game that are cool.
 Good luck with them though
 >:)"
+
+randomize();
+
+enum powerups {
+	bomba,
+	laza, 
+	little_men,
+	dynomite,
+	microphoney
+}

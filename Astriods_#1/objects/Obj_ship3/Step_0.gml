@@ -1,8 +1,9 @@
 if (keyboard_check(ord("F"))){
-	image_angle += 5;
+image_angle += 5;
+
 }
 if (keyboard_check(ord("H"))){
-	image_angle -= 5;
+		image_angle -= 5;
 }
 if (keyboard_check(ord("T"))){
 	motion_add(image_angle,0.1);
