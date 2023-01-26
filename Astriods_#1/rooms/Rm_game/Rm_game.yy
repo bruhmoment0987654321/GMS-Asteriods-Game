@@ -17,7 +17,8 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_16A5BADF","properties":[],"isDnd":false,"objectId":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":320.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F9FFA35","properties":[],"isDnd":false,"objectId":{"name":"Obj_bear","path":"objects/Obj_bear/Obj_bear.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_16A5BADF","properties":[],"isDnd":false,"objectId":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_63ACE389","properties":[],"isDnd":false,"objectId":{"name":"Obj_ship2","path":"objects/Obj_ship2/Obj_ship2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46958749","properties":[],"isDnd":false,"objectId":{"name":"Obj_ship3","path":"objects/Obj_ship3/Obj_ship3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5986BBCF","properties":[],"isDnd":false,"objectId":{"name":"Obj_ship4","path":"objects/Obj_ship4/Obj_ship4.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":416.0,},
@@ -40,6 +41,7 @@
     {"name":"inst_5986BBCF","path":"rooms/Rm_game/Rm_game.yy",},
     {"name":"inst_37C60947","path":"rooms/Rm_game/Rm_game.yy",},
     {"name":"inst_238E57E3","path":"rooms/Rm_game/Rm_game.yy",},
+    {"name":"inst_6F9FFA35","path":"rooms/Rm_game/Rm_game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

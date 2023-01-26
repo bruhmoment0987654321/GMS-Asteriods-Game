@@ -2,11 +2,6 @@
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
   "name": "Sg_destroy",
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "Sg_destroy.mp3",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -15,6 +10,11 @@
   "sampleRate": 44100,
   "type": 0,
   "bitDepth": 1,
+  "audioGroupId": {
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
+  },
+  "soundFile": "Sg_destroy.mp3",
   "duration": 1.091338,
   "parent": {
     "name": "Sounds",
