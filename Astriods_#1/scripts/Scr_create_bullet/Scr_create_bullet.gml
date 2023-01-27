@@ -19,8 +19,11 @@ function create_bullet(_x, _y, _dir, _spd, _gun_type){
 		break; 
 		case powerups.dynomite:
 		break;
+		/*creates a loud sound (basically an arc) and the loud sound
+		expands more and more the farther it gets*/
 		case powerups.microphoney:
-		
+		  audio_play_sound(Sg_laza, 1, false);
+           initialise_bullet(Obj_microphoney, _x, _y, _dir,_spd);
 		break;
 		//power-up that shoots all around
         case powerups.little_men:

@@ -4,6 +4,7 @@
   "name": "Astriods_#1",
   "resources": [
     {"id":{"name":"Spr_pow_line","path":"sprites/Spr_pow_line/Spr_pow_line.yy",},"order":3,},
+    {"id":{"name":"Spr_microphone_lines","path":"sprites/Spr_microphone_lines/Spr_microphone_lines.yy",},"order":11,},
     {"id":{"name":"Spr_bullet1","path":"sprites/Spr_bullet1/Spr_bullet1.yy",},"order":0,},
     {"id":{"name":"Obj_bomba","path":"objects/Obj_bomba/Obj_bomba.yy",},"order":8,},
     {"id":{"name":"Spr_laza_project","path":"sprites/Spr_laza_project/Spr_laza_project.yy",},"order":10,},
@@ -28,6 +29,7 @@
     {"id":{"name":"Sg_Funny","path":"sounds/Sg_Funny/Sg_Funny.yy",},"order":8,},
     {"id":{"name":"Obj_powerup","path":"objects/Obj_powerup/Obj_powerup.yy",},"order":10,},
     {"id":{"name":"Spr_explosion","path":"sprites/Spr_explosion/Spr_explosion.yy",},"order":1,},
+    {"id":{"name":"Obj_microphoney","path":"objects/Obj_microphoney/Obj_microphoney.yy",},"order":11,},
     {"id":{"name":"Spr_ship2","path":"sprites/Spr_ship2/Spr_ship2.yy",},"order":6,},
     {"id":{"name":"Sg_hurt","path":"sounds/Sg_hurt/Sg_hurt.yy",},"order":1,},
     {"id":{"name":"Spr_bigastripod","path":"sprites/Spr_bigastripod/Spr_bigastripod.yy",},"order":0,},
@@ -43,7 +45,6 @@
     {"id":{"name":"Obj_bear","path":"objects/Obj_bear/Obj_bear.yy",},"order":1,},
     {"id":{"name":"Spr_bullet3","path":"sprites/Spr_bullet3/Spr_bullet3.yy",},"order":2,},
     {"id":{"name":"Spr_ship3","path":"sprites/Spr_ship3/Spr_ship3.yy",},"order":7,},
-    {"id":{"name":"Spr_background","path":"sprites/Spr_background/Spr_background.yy",},"order":2,},
     {"id":{"name":"Rm_win","path":"rooms/Rm_win/Rm_win.yy",},"order":3,},
     {"id":{"name":"Obj_scroll","path":"objects/Obj_scroll/Obj_scroll.yy",},"order":2,},
     {"id":{"name":"Sg_shoot_sound","path":"sounds/Sg_shoot_sound/Sg_shoot_sound.yy",},"order":4,},
@@ -121,6 +122,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.9.1.51",
   },
 }
