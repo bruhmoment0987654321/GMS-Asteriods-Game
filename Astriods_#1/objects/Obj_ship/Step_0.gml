@@ -11,7 +11,7 @@ if (keyboard_check(vk_down)){
 	motion_set(image_angle,0);
 }
 if (keyboard_check_pressed(vk_space)){
-	Scr_create_bullet(image_angle,bulletSpeed,guns);
+	create_bullet(Obj_ship.x,Obj_ship.y,image_angle,bulletSpeed,guns);
 }
 
 move_wrap(true,true,sprite_width/2);

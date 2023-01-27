@@ -10,7 +10,8 @@ switch(power_up_type){
 		alarm[0] = 20*room_speed;
 	break;
 	case powerups.dynomite:
-		dynomite = true;
-		alarm[1] = 60*63.6
+		guns = power_up_type;
+		audio_play_sound(Sg_bombtimer,1,false);
+		alarm[1] = 60*63.6;
 	break;
 }

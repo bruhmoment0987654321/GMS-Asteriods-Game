@@ -1,6 +1,6 @@
-/// @description choosing the frame
+/// @description variables
 image_index = irandom_range(0,image_number -1);
 alarm [0] = 5* room_speed;
 image_speed = 0;
-image_index = powerups.little_men;
+image_index = powerups.bomba
 
