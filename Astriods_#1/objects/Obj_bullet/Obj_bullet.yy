@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_bomba",
+  "name": "Obj_bullet",
   "spriteId": {
-    "name": "Spr_bomba",
-    "path": "sprites/Spr_bomba/Spr_bomba.yy",
+    "name": "Spr_tiny_bullet",
+    "path": "sprites/Spr_tiny_bullet/Spr_tiny_bullet.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,14 +25,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_asteroid","path":"objects/Obj_asteroid/Obj_asteroid.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_ship2","path":"objects/Obj_ship2/Obj_ship2.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_ship3","path":"objects/Obj_ship3/Obj_ship3.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_ship4","path":"objects/Obj_ship4/Obj_ship4.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bomb",
-    "path": "folders/Objects/ship_assets/Bomb.yy",
+    "name": "ship_assets",
+    "path": "folders/Objects/ship_assets.yy",
   },
 }

@@ -2,9 +2,7 @@
 ///@arg obj
 ///@arg number
 
-function Scr_spawn_off_camera(){
-var obj = argument0;
-var num = argument1;
+function Scr_spawn_off_camera(obj,num){
 var xx,yy;
 
 //padding so the asteroids won't spawn right at the front (number interchangable)

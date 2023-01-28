@@ -13,8 +13,8 @@ function create_bullet(_x, _y, _dir, _spd, _gun_type){
 		
 		//creates a slow moving bomb that destroys nearby enemies
 		case powerups.bomba:
-		  audio_play_sound(Sg_pew, 1, false);
-            initialise_bullet(Obj_bomba, _x, _y, _dir, _spd/3.5);
+				audio_play_sound(Sg_pew, 1, false);
+				initialise_bullet(Obj_bomba, _x, _y, _dir, _spd/3.5);
             break;
 		break; 
 		case powerups.dynomite:
@@ -22,8 +22,12 @@ function create_bullet(_x, _y, _dir, _spd, _gun_type){
 		/*creates a loud sound (basically an arc) and the loud sound
 		expands more and more the farther it gets*/
 		case powerups.microphoney:
-		  audio_play_sound(Sg_laza, 1, false);
-           initialise_bullet(Obj_microphoney, _x, _y, _dir,_spd);
+		var bruh = choose(Sg_Doowopsoundeffect,Sg_Homerwahoo,Sg_pew,Sg_fun,
+		Sg_fortnite_pump_shotgun,Sg_laza,Sg_splat,Sg_hurt,Sg_WAWAWA_sound_effect_eyebrow_raise_,
+		Sg_metal_pipe
+		);
+		  audio_play_sound(bruh, 1, false);
+           initialise_bullet(Obj_microphoney, _x, _y, other.image_angle,_spd);
 		break;
 		//power-up that shoots all around
         case powerups.little_men:
