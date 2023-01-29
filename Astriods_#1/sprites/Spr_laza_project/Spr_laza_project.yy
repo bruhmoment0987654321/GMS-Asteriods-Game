@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ship_assests",
-    "path": "folders/Sprites/ship_assests.yy",
+    "name": "bullets and powers",
+    "path": "folders/Sprites/ship_assests/bullets and powers.yy",
   },
 }

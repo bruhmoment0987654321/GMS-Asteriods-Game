@@ -1,4 +1,6 @@
 /// @description make scraps 
+global.cameraShake = 16;
+
   audio_play_sound(Sg_pew, 1, false);
             var _sep = 7;
 			var _dir = image_angle;

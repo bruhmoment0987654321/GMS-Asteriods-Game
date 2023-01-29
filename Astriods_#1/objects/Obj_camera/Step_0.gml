@@ -10,6 +10,15 @@ if (instance_exists(target)){
 	global.cameraX = clamp(global.cameraX,0,room_width - global.cameraWidth);
 	global.cameraY = clamp(global.cameraY,0,room_height - global.cameraHeight);
 
+//camera shake
+global.cameraX += random_range(-global.cameraShake,global.cameraShake);
+global.cameraY += random_range(-global.cameraShake,global.cameraShake);
+
+if(global.cameraShake > 0){
+	global.cameraShake -= 0.5;
+	if (global.cameraShake < 0) global.cameraShake = 0;
+}
+
 //setting up camera position
 	camera_set_view_pos(view_camera[0],global.cameraX,global.cameraY);
 }

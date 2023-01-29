@@ -7,9 +7,14 @@ draw_line_width_color(x,y,
 	7,image_blend,image_blend);
 
 //draw collision
-collision_line(x,y,
+ var inst = collision_line(x,y,
 	x + lengthdir_x(len,direction),
 	y + lengthdir_y(len,direction),
 	Obj_asteroid,false,false
 );
 
+if(inst == Obj_asteroid){
+	with(inst){
+		event_perform(ev_collision,0)	
+	}
+}
