@@ -3,7 +3,6 @@
             var _sep = 7;
 			var _dir = image_angle;
             var _bullet_angle;
-			var _spd = Obj_ship.bulletSpeed;
             var i = 0;
             
             repeat(8){
@@ -11,7 +10,7 @@
                 initialise_bullet(Obj_bullet,
                     x + lengthdir_x(_sep,_bullet_angle),
                     y+ lengthdir_y(_sep,_bullet_angle),
-                    _bullet_angle, _spd,
+                    _bullet_angle, 7,
                 );
                 i++;
             }

@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ship_assets",
-    "path": "folders/Objects/ship_assets.yy",
+    "name": "Power-ups",
+    "path": "folders/Objects/ship_assets/Power-ups.yy",
   },
 }

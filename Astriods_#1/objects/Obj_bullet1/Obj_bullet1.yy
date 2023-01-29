@@ -35,7 +35,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ship_assets",
-    "path": "folders/Objects/ship_assets.yy",
+    "name": "Bullets",
+    "path": "folders/Objects/ship_assets/Bullets.yy",
   },
 }
