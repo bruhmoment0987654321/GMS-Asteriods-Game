@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_bomba_R",
+  "name": "Obj_bombaL_piece1",
   "spriteId": {
-    "name": "Spr_bomba_right_half",
-    "path": "sprites/Spr_bomba_right_half/Spr_bomba_right_half.yy",
+    "name": "Spr_bomba_left_piece1",
+    "path": "sprites/Spr_bomba_left_piece1/Spr_bomba_left_piece1.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_asteroid","path":"objects/Obj_asteroid/Obj_asteroid.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "R",
-    "path": "folders/Objects/ship_assets/Bomb/R.yy",
+    "name": "L",
+    "path": "folders/Objects/ship_assets/Bomb/L.yy",
   },
 }

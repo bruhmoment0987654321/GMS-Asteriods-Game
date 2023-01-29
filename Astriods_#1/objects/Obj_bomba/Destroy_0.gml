@@ -15,15 +15,15 @@
                 );
                 i++;
             }
-instance_create_layer(Obj_bomba.x,Obj_bomba.y,"Instances",Obj_bomba_L,
+instance_create_layer(Obj_bomba.x,Obj_bomba.y,"Instances",Obj_bombaL,
 {
     speed : 7,
     direction : 135
 });
 
-instance_create_layer(Obj_bomba.x,Obj_bomba.y,"Instances",Obj_bomba_R,
+instance_create_layer(Obj_bomba.x,Obj_bomba.y,"Instances",Obj_bombaR,
 {
-    speed : 7,
+    speed : 9,
     direction : -45
 });
 

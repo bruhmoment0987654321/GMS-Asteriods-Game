@@ -33,12 +33,12 @@ switch(room){
 		var e = c_gray;
 		var f = c_red;
 		draw_text_transformed_color(
-			room_width/2,100, "4TH PERSON SHOOTER",
+			room_width/2,100, "THE Astrobros B)",
 			4,4,0,c,d,e,f,1
 		);
 		draw_text(room_width/2,300,
 			@"Play and have fun with 4 playerrrrsss :)
-Get 30,000 points to win :o
+Get 100,000 points to win! ( ﾟ Дﾟ)
 >>PRESS TAB FOR CONTROLS OF ALL PLAYERS AND HOW TO PLAY<<
 >>>PRESS ENTER TO START<<<
 >>PRESS 'R' TO RESTART<<"

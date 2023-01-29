@@ -51,7 +51,7 @@ if (room == Rm_game){
 		room_goto(Rm_gameover);
 		alarm[1] = 3*60;
 	}
-	if (score >= 30000){
+	if (score >= 100000){
 		room_goto(Rm_win);
 		audio_play_sound(Sg_Homerwahoo,1,false);
 	}

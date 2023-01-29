@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_bomba_L",
+  "name": "Obj_bombaL",
   "spriteId": {
     "name": "Spr_bomba_left_half",
     "path": "sprites/Spr_bomba_left_half/Spr_bomba_left_half.yy",
