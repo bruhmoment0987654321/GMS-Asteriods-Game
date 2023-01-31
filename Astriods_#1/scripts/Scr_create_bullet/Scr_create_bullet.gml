@@ -13,11 +13,8 @@ function create_bullet(_x, _y, _dir, _spd, _gun_type){
 		
 		//creates a slow moving bomb that destroys nearby enemies
 		case powerups.bomba:
-				
-				if !(instance_exists(Obj_bomba)){
-					initialise_bullet(Obj_bomba, _x, _y, _dir,0);
 					audio_play_sound(Sg_vine_boom, 1, false);
-				}
+					initialise_bullet(Obj_bomba, _x, _y, _dir,0);
             break;
 		break; 
 		case powerups.dynomite:

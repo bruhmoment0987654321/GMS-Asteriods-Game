@@ -6,14 +6,34 @@ if (keyboard_check(ord("D"))){
 }
 if (keyboard_check(ord("W"))){
 	motion_add(image_angle,0.1);
+	
+	//particle FX
+		var len = sprite_height *.4;
+		var _xx = x - lengthdir_x(len,image_angle)
+		var _yy = y - lengthdir_y(len,image_angle)
+		with(Obj_particles){
+			part_particles_create(partSys,_xx,_yy,partTypeExhaust,1);
+		}
 }
 if (keyboard_check(ord("S"))){
-	motion_set(image_angle,0);
+		motion_add(image_angle,-0.15);
+		
+		//particle FX
+		var len = sprite_height*0.4;
+		var _xx = x - lengthdir_x(len,image_angle)
+		var _yy = y - lengthdir_y(len,image_angle)
+		with(Obj_particles){
+			part_particles_create(partSys,_xx,_yy*1.05,partTypeExhaust2,1);
+		}
+		var len = sprite_height * 0.4;
+		var _xx = x - lengthdir_x(len,image_angle)
+		var _yy = y - lengthdir_y(len,image_angle)
+		with(Obj_particles){
+			part_particles_create(partSys,_xx,_yy/1.05,partTypeExhaust2,1);
+		}
 }
 if (keyboard_check_pressed(ord("E"))){
-	var inst = instance_create_layer(x,y,"Instances",Obj_bullet2);
-	inst.direction = image_angle;
-	audio_play_sound(Sg_destroy,1,false);
+	create_bullet(Obj_ship.x,Obj_ship.y,image_angle,bulletSpeed,guns);
 }
-move_wrap(true,true,sprite_width/2);
 
+move_wrap(true,true,sprite_width/2);
