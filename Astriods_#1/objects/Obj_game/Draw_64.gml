@@ -3,7 +3,7 @@ switch(room){
 //drawing the score and lives
 	case Rm_game:
 		draw_text(20,20,"SCORE:" +string(score));
-		draw_text(20,40,"lives:" +string(lives));
+		draw_text(20,40,"lIVES:" +string(lives));
 	break;
 	
 //drawing the "game over" screen 

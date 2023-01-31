@@ -1,9 +1,15 @@
 instance_destroy();
 score += 300;
 audio_play_sound(Sg_fun,1,false);
+	var _xx = x
+	var _yy = y
+	var _ib = image_blend;
 with(other){
 	instance_destroy();
 	if(sprite_index == Spr_bigastripod){
+		with(Obj_particles){
+		part_particles_create_colour(partSys,_xx,_yy/1.1,partTypeAsteroidDebris,_ib,12);
+	}
 		global.cameraShake = 13;
 		score += 100;
 		repeat(2){
@@ -11,6 +17,9 @@ with(other){
 			coolastroid.sprite_index = Spr_mediumasteriod;
 		}
 	}else if(sprite_index == Spr_mediumasteriod){
+		with(Obj_particles){
+			part_particles_create_colour(partSys,_xx,_yy/1.1,partTypeAsteroidDebris,_ib,8);
+		}
 		score += 200;
 		global.cameraShake = 11;
 		repeat(2){
@@ -19,6 +28,9 @@ with(other){
 		}
 	}else{
 		global.cameraShake = 8;
+		with(Obj_particles){
+			part_particles_create_colour(partSys,_xx,_yy/1.1,partTypeAsteroidDebris,_ib,4);
+	}
 	}
 	instance_create_layer(x,y,"Instances",Obj_explosion);
 }
