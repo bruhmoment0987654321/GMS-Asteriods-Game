@@ -7,5 +7,6 @@ audio_play_sound(Sg_fun,1,false);
 
 if(!instance_exists(Obj_ship)){
 	audio_play_sound(Sg_fun,1,false);
+	audio_is_paused(Sg_monkeysspinningmonkeys);
 	room_restart();
 }

@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "camera_assests",
-    "path": "folders/Objects/camera_assests.yy",
+    "name": "game_assets_and_pics",
+    "path": "folders/Objects/game_assets_and_pics.yy",
   },
 }

@@ -14,4 +14,8 @@ switch(power_up_type){
 		audio_play_sound(Sg_bombtimer,1,false);
 		alarm[1] = 60*63.6;
 	break;
+	case powerups.laza:
+		guns = 1;
+		alarm[0] = 15*room_speed;
+	break;
 }

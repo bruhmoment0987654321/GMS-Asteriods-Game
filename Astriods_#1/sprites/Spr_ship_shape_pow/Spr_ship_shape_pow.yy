@@ -73,10 +73,11 @@
   },
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1588d6e4-49d3-468f-a1ca-7844fc787525","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d52a7fe-5abd-48ab-a53b-8227785cbe0d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"moon or sm",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "bullets and powers",
-    "path": "folders/Sprites/ship_assests/bullets and powers.yy",
+    "name": "power-ups",
+    "path": "folders/Sprites/ship_assests/power-ups.yy",
   },
 }

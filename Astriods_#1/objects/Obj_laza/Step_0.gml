@@ -1,13 +1,4 @@
 ///@ description variables
-
-if (!instance_exists(Obj_ship)){
-	exit;	
-}
-
-x = Obj_ship.x;
-y = Obj_ship.y;
-direction = Obj_ship.image_angle;
+x = Obj_ship.x+10;
+y = Obj_ship.y+50; 
 image_blend = irandom_range(255,167000000);
-
-
-
