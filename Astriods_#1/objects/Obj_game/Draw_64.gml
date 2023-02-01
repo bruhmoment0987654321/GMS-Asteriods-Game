@@ -2,6 +2,7 @@
 switch(room){
 //drawing the score and lives
 	case Rm_game:
+		
 		draw_text(20,20,"SCORE:" +string(score));
 		draw_text(20,40,"lIVES:" +string(lives));
 	break;
@@ -33,13 +34,14 @@ switch(room){
 		var e = c_gray;
 		var f = c_red;
 		draw_text_transformed_color(
-			room_width/2,100, "THE Astrobros B)",
+			room_width/2,100, "Bears. IN SPACE! B)",
 			4,4,0,c,d,e,f,1
 		);
 		draw_text(room_width/2,300,
-			@"Play and have fun with 4 playerrrrsss :)
+			@"Play and have fun with bears :)
 Get 100,000 points to win! :o
->>PRESS TAB FOR CONTROLS OF ALL PLAYERS AND HOW TO PLAY<<
+Or another thing...
+>>PRESS TAB FOR CONTROLS AND HOW TO PLAY<<
 >>>PRESS ENTER TO START<<<
 >>PRESS 'R' TO RESTART<<"
 		);
@@ -69,10 +71,9 @@ YOU WON!!",
 	
 // game controls 
 	case Rm_gamecontrols:
-		draw_text_transformed(room_width/9,room_height/5,ctrl_txt2,1,1,0);
-		draw_text_transformed(room_width/1.5,room_height/5,ctrl_txt,1,1,0);
-		draw_text(600,775,"Press 2 for Objective");
-		draw_text(590,750,"Press Enter to go back to Title Screen");
+		draw_text_transformed(room_width/4,room_height/2,ctrl_txt,1,1,0);
+		draw_text(825,500,"Press 2 for Objective");
+		draw_text(675,530,"Press Enter to go back to Title Screen");
 	break;
 	
 //objective (nothing here so the words won't appear on the top)
