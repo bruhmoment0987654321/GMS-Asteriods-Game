@@ -9,7 +9,7 @@ if (keyboard_check_pressed(vk_enter)){
 			game_restart();
 		break;
 		case Rm_objective:
-		case Rm_boss:
+		case Rm_talking_room:
 		break;
 		
 	}
@@ -26,7 +26,7 @@ if (keyboard_check_pressed(vk_tab)){
 		case Rm_gameover:
 		case Rm_gamecontrols:
 		case Rm_objective:
-		case Rm_boss:
+		case Rm_talking_room:
 		break;
 		
 	}
@@ -42,7 +42,7 @@ if (keyboard_check_pressed(ord(2))){
 		case Rm_gameover:
 		case Rm_start:
 		case Rm_objective:
-		case Rm_boss:
+		case Rm_talking_room:
 		break;
 		
 	}
@@ -61,7 +61,7 @@ if (room == Rm_game){
 if (!instance_exists(Obj_bear)){
 	switch(room){
 		case Rm_game:
-		room_goto(Rm_boss);
+		room_goto(Rm_talking_room);
 		case Rm_start:
 		case Rm_win:
 		case Rm_gameover:

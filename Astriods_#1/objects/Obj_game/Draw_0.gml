@@ -12,7 +12,7 @@ switch(room){
 		draw_text_transformed_color(room_width/2,5,ctrl_txt3,1.50,1.5,0,g,g,g,g,1);
 		draw_set_halign(fa_left);
 	break;
-	case Rm_boss:
+	case Rm_talking_room:
 		draw_set_halign(fa_center);
 		draw_text_transformed(room_width/2,5,ctrl_txt2,1.50,1.5,0);
 		draw_set_halign(fa_left);
