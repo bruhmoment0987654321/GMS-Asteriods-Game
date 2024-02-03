@@ -6,45 +6,19 @@ if (keyboard_check_pressed(vk_enter)){
 		case Rm_win:
 		case Rm_gameover:
 		case Rm_gamecontrols:
-			game_restart();
+			room_goto(Rm_game);
 		break;
-		case Rm_objective:
-		case Rm_talking_room:
-		break;
-		
 	}
 }
 
-if (keyboard_check_pressed(vk_tab)){
-	switch(room){
-		case Rm_start:
-			room_goto(Rm_gamecontrols);
-		break;
-		
-		case Rm_game:
-		case Rm_win:
-		case Rm_gameover:
-		case Rm_gamecontrols:
-		case Rm_objective:
-		case Rm_talking_room:
-		break;
-		
+if(keyboard_check_pressed(vk_tab)){
+	if(room == Rm_start){
+		room_goto(Rm_game);	
 	}
 }
 if (keyboard_check_pressed(ord(2))){
-	switch(room){
-		case Rm_gamecontrols:
-			room_goto(Rm_objective);
-		break;
-		
-		case Rm_game:
-		case Rm_win:
-		case Rm_gameover:
-		case Rm_start:
-		case Rm_objective:
-		case Rm_talking_room:
-		break;
-		
+	if(room == Rm_gamecontrols){
+		room_goto(Rm_objective);	
 	}
 }
 
@@ -59,15 +33,7 @@ if (room == Rm_game){
 	}
 }
 if (!instance_exists(Obj_bear)){
-	switch(room){
-		case Rm_game:
-		room_goto(Rm_talking_room);
-		case Rm_start:
-		case Rm_win:
-		case Rm_gameover:
-		case Rm_gamecontrols:
-		case Rm_objective:
-		break;
-		
+	if(room == Rm_game){
+		room_goto(Rm_talking_room);	
 	}
 }

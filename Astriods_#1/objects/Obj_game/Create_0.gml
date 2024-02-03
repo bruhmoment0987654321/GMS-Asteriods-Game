@@ -24,6 +24,5 @@ enum powerups {
 	bomba,
 	laza, 
 	little_men,
-	dynomite,
 	microphoney
 }

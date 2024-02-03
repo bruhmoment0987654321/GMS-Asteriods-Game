@@ -26,6 +26,3 @@ surface_resize(application_surface,displayWidth,displayHeight);
 
 //GUI
 display_set_gui_size(global.cameraWidth,global.cameraHeight);
-
-//for reason, check description of Alarm [0]
-alarm [0] = 1;
